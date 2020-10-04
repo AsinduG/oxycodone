@@ -42,7 +42,7 @@ public class Feedback extends AppCompatActivity {
         txtSuggesion = findViewById(R.id.suggesion);
 
 
-        btnAdd = findViewById(R.id.btnNext);
+        btnAdd = findViewById(R.id.btnSave);
         btnShow = findViewById(R.id.btnShow);
         btnUpdate = findViewById(R.id.btnUpdate);
         btnDelete = findViewById(R.id.btnDelete);

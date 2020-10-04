@@ -40,7 +40,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView6"
         app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        app:layout_constraintTop_toBottomOf="@+id/btnGo"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -52,21 +52,21 @@
         android:layout_marginRight="52dp"
         android:background="@drawable/wallets"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        app:layout_constraintTop_toBottomOf="@+id/btng"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btnGo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#957856"
         android:text="@string/addcart"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btn2"
-        app:layout_constraintEnd_toStartOf="@+id/btn2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btng"
+        app:layout_constraintEnd_toStartOf="@+id/btng"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/btng"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -78,18 +78,18 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <Button
-        android:id="@+id/btn3"
+        android:id="@+id/btngg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#957856"
         android:text="@string/addcart"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btn4"
-        app:layout_constraintEnd_toStartOf="@+id/btn4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnggg"
+        app:layout_constraintEnd_toStartOf="@+id/btnggg"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn4"
+        android:id="@+id/btnggg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"

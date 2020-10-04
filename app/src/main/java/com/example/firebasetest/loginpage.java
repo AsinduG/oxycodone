@@ -31,7 +31,7 @@ public class loginpage extends AppCompatActivity {
         setContentView(R.layout.activity_loginpage);
         reg = findViewById(R.id.textViewLog);
 
-        email = findViewById(R.id.email);
+        email = findViewById(R.id.mEmail);
         Password = findViewById(R.id.Password);
         buttonLog = findViewById(R.id.buttonLog);
         fAuth = FirebaseAuth.getInstance();

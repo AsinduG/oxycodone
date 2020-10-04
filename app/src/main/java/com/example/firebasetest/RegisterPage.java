@@ -43,7 +43,7 @@ public class RegisterPage extends AppCompatActivity {
         setContentView(R.layout.activity_register_page);
 
         userName = findViewById(R.id.userName);
-        email = findViewById(R.id.email);
+        email = findViewById(R.id.mEmail);
         Password = findViewById(R.id.Password);
         phone = findViewById(R.id.phone);
         buttonReg = findViewById(R.id.buttonLog);

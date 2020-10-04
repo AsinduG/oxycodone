@@ -16,10 +16,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Shop"></activity>
+        <activity android:name=".BillingDetails"></activity>
+        <activity android:name=".PaymentsDetails" />
+        <activity android:name=".Shop" />
         <activity android:name=".Feedback2" />
         <activity android:name=".Feedback" />
-        <activity android:name=".PaymentsDetails" />
+        <activity android:name=".FirstPay" />
         <activity android:name=".EditProfile" />
         <activity android:name=".Myprofile" />
         <activity android:name=".AdminUpload" />

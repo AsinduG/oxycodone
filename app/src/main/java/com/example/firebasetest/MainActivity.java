@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.annotation.NonNull;
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     NavigationView navigationView;
     Toolbar toolbar;
     Menu menu;
-    Button addNew;
+    Button addNew,btnGone;
 
 
 
@@ -44,6 +45,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setCheckedItem(R.id.home);
 
         menu = navigationView.getMenu();
+
+        btnGone = findViewById(R.id.btnGo);
+        btnGone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(MainActivity.this, BillingDetails.class);
+                startActivity(intent2);
+            }
+        });
 
 
     }
@@ -79,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     startActivity(intent4);
                     break;
                 case R.id.shop:
-                    Intent intent5 = new Intent(MainActivity.this, Shop.class);
+                    Intent intent5 = new Intent(MainActivity.this, BillingDetails.class);
                     startActivity(intent5);
                     break;
 
@@ -89,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     break;
 
 
-                //case R.id.nav_share: Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show(); break;
+
             }
             drawerLayout.closeDrawer(GravityCompat.START);
             return true;

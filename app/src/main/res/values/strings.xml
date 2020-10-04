@@ -38,5 +38,11 @@
     <string name="editeText12">Update </string>
     <string name="editeText13">Cancel </string>
 
+    //IT19144436
+    <string name="biling">Billing Details</string>
+    <string name="address">Address</string>
+    <string name="postalcode">Postal Code</string>
+    <string name="next">Next</string>
+
 
 </resources>
