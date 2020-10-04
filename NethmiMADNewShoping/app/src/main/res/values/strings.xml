@@ -1,0 +1,21 @@
+<resources>
+    //IT19151984
+    <string name="app_name">Shop Sinfinifyy</string>
+    <string name="editeText1">Shops Infinity</string>
+    <string name="editeText2">Payment Details</string>
+    <string name="editeText3">Card Type</string>
+    <string name="editeText4">Debit </string>
+    <string name="editeText5">Credit</string>
+    <string name="editeText6">Card Number </string>
+    <string name="editeText7">Name on Card </string>
+    <string name="editeText8">Card Expriy Date  </string>
+    <string name="editeText9">Security Code </string>
+    <string name="editeText10">Save  </string>
+    <string name="editeText11">Show  </string>
+    <string name="editeText12">Update  </string>
+    <string name="editeText13">Cancel  </string>
+    <string name="Feedbacktxt">Feedback</string>
+    <string name="FeedbackPart2">Do you have any feedback or suggestion would be appreciated?</string>
+
+
+</resources>

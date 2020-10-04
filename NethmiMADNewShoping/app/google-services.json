@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "653948312562",
+    "firebase_url": "https://shops-infinity-new.firebaseio.com",
+    "project_id": "shops-infinity-new",
+    "storage_bucket": "shops-infinity-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653948312562:android:dd107d4cdc0eaf4838e96b",
+        "android_client_info": {
+          "package_name": "com.example.shopsinfinifyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653948312562-ofg6205jqd0ucdn0eja9hp6s6430aobt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpudBB3RNyIU98_E8FOdIip4XbGroXQao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653948312562-ofg6205jqd0ucdn0eja9hp6s6430aobt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
